@@ -1,3 +1,4 @@
-FROM node:6
+FROM node:6.10-slim
 
-RUN npm install -g pm2@latest
+RUN yarn global add pm2@2.4.0
+
